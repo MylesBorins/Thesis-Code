@@ -1,0 +1,29 @@
+#N canvas 608 70 450 300 10;
+#X obj 268 153 ezdac~;
+#X obj 118 115 dac~;
+#X obj 118 90 *~;
+#X obj 183 61 hsl 64 16 0 1 0 0 \$0-v \$0-v volume -2 -6 0 8 -260818
+-123526 -1 0 1;
+#X obj 133 14 r \$0-v;
+#X obj 133 61 line~;
+#X msg 133 38 \$1 10;
+#X obj -8 36 f \$1;
+#X obj -8 15 loadbang;
+#X obj -8 57 s \$0-v;
+#X obj 63 38 osc~ 110;
+#X obj -5 135 tgl 16 0 \$0-d \$0-d DSP 0 -6 0 8 -260818 -123526 -33289
+1 1;
+#X msg -5 159 \; pd dsp \$1;
+#X obj 34 94 r pd;
+#X obj 34 118 route dsp;
+#X connect 2 0 1 0;
+#X connect 2 0 1 1;
+#X connect 4 0 6 0;
+#X connect 5 0 2 1;
+#X connect 6 0 5 0;
+#X connect 7 0 9 0;
+#X connect 8 0 7 0;
+#X connect 10 0 2 0;
+#X connect 11 0 12 0;
+#X connect 13 0 14 0;
+#X connect 14 0 11 0;
