@@ -1,8 +1,7 @@
-#N canvas 608 70 450 300 10;
-#X obj 268 153 ezdac~;
+#N canvas 882 212 440 355 10;
 #X obj 118 115 dac~;
 #X obj 118 90 *~;
-#X obj 183 61 hsl 64 16 0 1 0 0 \$0-v \$0-v volume -2 -6 0 8 -260818
+#X obj 111 -10 hsl 64 16 0 1 0 0 \$0-v \$0-v volume -2 -6 0 8 -260818
 -123526 -1 0 1;
 #X obj 133 14 r \$0-v;
 #X obj 133 61 line~;
@@ -16,14 +15,22 @@
 #X msg -5 159 \; pd dsp \$1;
 #X obj 34 94 r pd;
 #X obj 34 118 route dsp;
-#X connect 2 0 1 0;
-#X connect 2 0 1 1;
-#X connect 4 0 6 0;
-#X connect 5 0 2 1;
-#X connect 6 0 5 0;
-#X connect 7 0 9 0;
-#X connect 8 0 7 0;
-#X connect 10 0 2 0;
-#X connect 11 0 12 0;
-#X connect 13 0 14 0;
-#X connect 14 0 11 0;
+#X text 62 18 source;
+#X obj 185 61 *~;
+#X obj 185 31 osc~ 1;
+#X obj 189 -22 knob 32 32 0 10 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 3100 1;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
+#X connect 3 0 5 0;
+#X connect 4 0 1 1;
+#X connect 5 0 4 0;
+#X connect 6 0 8 0;
+#X connect 7 0 6 0;
+#X connect 9 0 1 0;
+#X connect 10 0 11 0;
+#X connect 12 0 13 0;
+#X connect 13 0 10 0;
+#X connect 15 0 1 1;
+#X connect 16 0 15 0;
+#X connect 17 0 16 0;

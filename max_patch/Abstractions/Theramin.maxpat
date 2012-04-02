@@ -57,13 +57,13 @@
 					"presentation_rect" : [ 12.0, 62.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.toggle",
 							"parameter_longname" : "live.toggle[7]",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_type" : 2,
-							"parameter_initial_enable" : 1,
-							"parameter_shortname" : "live.toggle"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -212,8 +212,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 275.5, 124.0, 20.0 ],
-					"text" : "scale 1. 0. 110. 1440."
+					"patching_rect" : [ 16.0, 275.5, 112.0, 20.0 ],
+					"text" : "scale 1. 0. 60. 880."
 				}
 
 			}
@@ -419,14 +419,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-15::obj-14" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-3::obj-15" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-14::obj-14" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-14::obj-15" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-4" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-16::obj-14" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-16::obj-15" : [ "live.toggle[12]", "live.toggle", 0 ],
 			"obj-3::obj-14" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-16::obj-14" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-14::obj-14" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-16::obj-15" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-14::obj-15" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-3::obj-15" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-4" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-15::obj-14" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-15::obj-15" : [ "live.toggle[2]", "live.toggle", 0 ]
 		}
 ,
