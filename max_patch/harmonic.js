@@ -32,7 +32,7 @@ function list()
 		if(!a[2]){
 			user[a[0]].val = [0.0,0.0,0.0];
 		}
-		outlet(0, "/user" + user[a[0]].number + "/state", user[a[0]].state);
+		outlet(0, "/user" + user[a[0]].number + "/control", user[a[0]].state);
 	}
 	else{
 		user[a[0]].val = [a[2], a[3], a[4]];
