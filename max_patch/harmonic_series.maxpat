@@ -66,8 +66,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 613.0, 181.0, 20.0 ],
-					"text" : "udpsend speaker-bot.local 9001"
+					"patching_rect" : [ 288.0, 613.0, 129.0, 20.0 ],
+					"text" : "udpsend minibot 9001"
 				}
 
 			}
@@ -554,16 +554,16 @@
 ,
 					"patching_rect" : [ 288.0, 566.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"tags" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p packer"
@@ -1125,77 +1125,77 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-16::obj-6::obj-15" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-16::obj-6::obj-14" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-30::obj-6::obj-14" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-27::obj-6::obj-15" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-33::obj-6::obj-14" : [ "live.toggle[24]", "live.toggle", 0 ],
+			"obj-31::obj-6::obj-15" : [ "live.toggle[19]", "live.toggle", 0 ],
+			"obj-25::obj-15::obj-15" : [ "live.toggle[8]", "live.toggle", 0 ],
 			"obj-26::obj-15::obj-15" : [ "live.toggle[9]", "live.toggle", 0 ],
 			"obj-16::obj-15::obj-15" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-31::obj-6::obj-14" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-32::obj-15::obj-15" : [ "live.toggle[21]", "live.toggle", 0 ],
-			"obj-25::obj-6::obj-14" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-26::obj-6::obj-15" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-25::obj-6::obj-15" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-30::obj-15::obj-15" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-27::obj-6::obj-14" : [ "live.toggle[6]", "live.toggle", 0 ],
 			"obj-33::obj-6::obj-15" : [ "live.toggle[23]", "live.toggle", 0 ],
-			"obj-25::obj-15::obj-15" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-27::obj-6::obj-15" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-30::obj-6::obj-15" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-33::obj-6::obj-14" : [ "live.toggle[24]", "live.toggle", 0 ],
-			"obj-27::obj-15::obj-15" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-30::obj-6::obj-14" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-31::obj-6::obj-15" : [ "live.toggle[19]", "live.toggle", 0 ],
+			"obj-31::obj-6::obj-14" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-25::obj-6::obj-14" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-25::obj-6::obj-15" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-26::obj-6::obj-14" : [ "live.toggle[4]", "live.toggle", 0 ],
 			"obj-33::obj-15::obj-15" : [ "live.toggle[25]", "live.toggle", 0 ],
 			"obj-32::obj-6::obj-15" : [ "live.toggle[22]", "live.toggle", 0 ],
-			"obj-26::obj-6::obj-14" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-16::obj-6::obj-15" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-27::obj-6::obj-14" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-16::obj-6::obj-14" : [ "live.toggle[13]", "live.toggle", 0 ],
 			"obj-31::obj-15::obj-15" : [ "live.toggle[18]", "live.toggle", 0 ],
+			"obj-30::obj-15::obj-15" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-26::obj-6::obj-15" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-32::obj-15::obj-15" : [ "live.toggle[21]", "live.toggle", 0 ],
+			"obj-30::obj-6::obj-15" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-27::obj-15::obj-15" : [ "live.toggle[5]", "live.toggle", 0 ],
 			"obj-32::obj-6::obj-14" : [ "live.toggle[20]", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "user_tracker.maxpat",
-				"bootpath" : "/Users/TheAlphaNerd/github/thesis-code/max_patch/Abstractions",
+				"bootpath" : "/Users/speakerbot/github/Thesis-Code/max_patch/Abstractions",
 				"patcherrelativepath" : "../max_patch/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receive_user.maxpat",
-				"bootpath" : "/Users/TheAlphaNerd/github/thesis-code/max_patch/OSCeleton_router",
+				"bootpath" : "/Users/speakerbot/github/Thesis-Code/max_patch/OSCeleton_router",
 				"patcherrelativepath" : "../max_patch/OSCeleton_router",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "r_alt.maxpat",
-				"bootpath" : "/Users/TheAlphaNerd/github/thesis-code/max_patch/OSCeleton_router",
+				"bootpath" : "/Users/speakerbot/github/Thesis-Code/max_patch/OSCeleton_router",
 				"patcherrelativepath" : "../max_patch/OSCeleton_router",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "joint_selector.maxpat",
-				"bootpath" : "/Users/TheAlphaNerd/github/thesis-code/max_patch/OSCeleton_router",
+				"bootpath" : "/Users/speakerbot/github/Thesis-Code/max_patch/OSCeleton_router",
 				"patcherrelativepath" : "../max_patch/OSCeleton_router",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harmonic.js",
-				"bootpath" : "/Users/TheAlphaNerd/github/thesis-code/max_patch",
+				"bootpath" : "/Users/speakerbot/github/Thesis-Code/max_patch",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "calibration.maxpat",
-				"bootpath" : "/Users/TheAlphaNerd/github/thesis-code/max_patch/Abstractions",
+				"bootpath" : "/Users/speakerbot/github/Thesis-Code/max_patch/Abstractions",
 				"patcherrelativepath" : "../max_patch/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "init.js",
-				"bootpath" : "/Users/TheAlphaNerd/github/thesis-code/max_patch",
+				"bootpath" : "/Users/speakerbot/github/Thesis-Code/max_patch",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1

@@ -1,0 +1,1 @@
+you may need to manually change the hostname in all the udpsend objects if max is freezing when you try to open a patch.  Open theramin.maxpat in a texeditor and search/replace... currently it is set to "minibot", but there is always a chance that will be changed without me updating this readme... so beware!

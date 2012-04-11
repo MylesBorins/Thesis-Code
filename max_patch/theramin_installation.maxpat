@@ -35,7 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 408.0, 386.0, 181.0, 20.0 ],
-					"text" : "udpsend speaker-bot.local 9001"
+					"text" : "udpsend mini-bot 9001"
 				}
 
 			}
@@ -73,7 +73,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 8, "speaker-bot.local" ],
+					"args" : [ 8, "mini-bot" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "Theramin.maxpat",
@@ -85,7 +85,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 7, "speaker-bot.local" ],
+					"args" : [ 7, "mini-bot" ],
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "Theramin.maxpat",
@@ -97,7 +97,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 6, "speaker-bot.local" ],
+					"args" : [ 6, "mini-bot" ],
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
 					"name" : "Theramin.maxpat",
@@ -109,7 +109,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 5, "speaker-bot.local" ],
+					"args" : [ 5, "mini-bot" ],
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
 					"name" : "Theramin.maxpat",
@@ -121,7 +121,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4, "speaker-bot.local" ],
+					"args" : [ 4, "mini-bot" ],
 					"id" : "obj-4",
 					"maxclass" : "bpatcher",
 					"name" : "Theramin.maxpat",
@@ -133,7 +133,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 3, "speaker-bot.local" ],
+					"args" : [ 3, "mini-bot" ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "Theramin.maxpat",
@@ -145,7 +145,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, "speaker-bot.local" ],
+					"args" : [ 2, "mini-bot" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "Theramin.maxpat",
@@ -157,7 +157,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, "speaker-bot.local" ],
+					"args" : [ 1, "mini-bot" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "Theramin.maxpat",
